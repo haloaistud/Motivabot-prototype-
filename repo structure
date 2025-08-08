@@ -1,0 +1,17 @@
+motivabot/
+├── index.html               # Tabbed layout + script imports
+├── styles.css               # Modular CSS, includes tabbed UI & animations
+├── README.md                # Documentation (Already uploaded)
+├── LICENSE                  # MIT license
+├── package.json             # Dev tools (optional for local scripts)
+├── build.js                 # (Optional) JS bundler or minifier
+├── scripts/
+│   ├── chat.js              # Chatbot NLP + TTS + error correction
+│   ├── goals.js             # Goal tracker module
+│   ├── horoscope.js         # Horoscope mock API
+│   ├── friend.js            # Friend wall logic
+│   ├── logger.js            # Mood tracker + habit logger
+│   └── profile.js           # Personality questionnaire + storage
+└── .github/
+    └── workflows/
+        └── deploy.yml       # GitHub Pages + testing
